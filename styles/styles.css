@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: sans-serif;
 }
 
-div{
+.div-header{
     font-family: sans-serif;
     max-width: 500px;
     margin-left: auto;
@@ -45,11 +45,20 @@ dd {
     padding-bottom: 1rem;
 }
 
+article {
+    margin-bottom: 40px;
+}
+
 table, th, td {
     border: 1px solid;
 }
 
 th {
     background-color: #DDD;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
 }
 
