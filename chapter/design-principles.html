@@ -6,19 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
-  <ul>
-    <li><a href="../index.html">Inhaltsverzeichnis</a></li>
-  </ul>
 
   <header>
-    <h1>Design Principles</h1>
-    <p>The challenge is to develop an application that tries to increase the user’s participation in team sports through
-      online communities. Several factors play into the success of this concept. It is not possible to achieve this goal
-      if the application is not properly designed. To achieve this, design principles of several disciplines are applied
-      to achieve a user-centric solution.</p>
+    <ul>
+      <li><a href="../index.html">Inhaltsverzeichnis</a></li>
+    </ul>
+
+    <div class="div-header">
+      <h1>Design Principles</h1>
+      <p>The challenge is to develop an application that tries to increase the user’s participation in team sports
+        through
+        online communities. Several factors play into the success of this concept. It is not possible to achieve this
+        goal
+        if the application is not properly designed. To achieve this, design principles of several disciplines are
+        applied
+        to achieve a user-centric solution.</p>
+    </div>
   </header>
 
   <article>
@@ -45,7 +52,7 @@
     <p>User experience captures everything a user experiences while using a given product, from the visuals, the
       haptics,
       and the audio to how the product feels. User experience of a product comprises three primary factors: its look,
-      feel, and usability <cite>(IXDF - UX DESIGN, N.D.)</cite> (→ FIG. 04).
+      feel, and usability <cite>(IXDF - UX DESIGN, N.D.) (→ FIG. 04)</cite>.
     </p>
 
 
@@ -145,6 +152,41 @@
 
     </table>
   </article>
+
+  <footer id="kommentar-hinterlassen">
+      <form>
+        <fieldset>
+
+          <legend>Persönliche Daten</legend>
+          <label for="vorname">Vorname</label>
+          <input type="text" id="vorname" name="vorname" placeholder="Max">
+
+          <label for="nachname">Nachname</label>
+          <input type="text" id="nachname" name="nachname" placeholder="Mustermann">
+
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" placeholder="e.mustermann@web.de">
+
+          <label for="avatar">Profilbild</label>
+          <input type="file" id="avatar" name="vorname">
+        </fieldset>
+
+        <label for="kommentar">Ihr Kommentar</label>
+        <textarea name="kommentar" id="kommentar" cols="30" rows="10"></textarea>
+
+        <fieldset>
+          <label>Soll der Autorenname in einer späteren Anzeige anonymisiert werden?</label>
+          <input type="radio" name="anonymisieren" value="ja" checked>ja
+          <input type="radio" name="anonymisieren" value="nein">nein
+        </fieldset>
+
+        <label for="datenschutz">Haben Sie die Datenschutzerklärung gelesen?</label>
+        <input type="checkbox" name="datenschutz" id="datenschutz">Ja, ich habe die Datenschutzerklärung gelesen.
+        <input type="reset" value="Daten zurücksetzen">
+        <input type="submit" value="Kommentar absenden">
+      </form>
+  </footer>
+
 
 </body>
 

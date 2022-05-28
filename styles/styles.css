@@ -1,0 +1,64 @@
+* {
+    margin-left: 10px;
+    padding-left: 0px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+
+.div-header{
+    font-family: sans-serif;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right:0px;
+    color: #666;
+}
+
+
+cite, figcaption{
+    font-size: 10px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #AAA;
+}
+
+blockquote{
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(223, 149, 13);
+}
+
+dt {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin:0;
+    color: #999;
+    padding-bottom: 0.2rem;
+}
+dd {
+    margin:0;
+    padding-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+th {
+    background-color: #DDD;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
