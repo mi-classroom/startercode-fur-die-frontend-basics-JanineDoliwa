@@ -3,19 +3,3 @@
 @import "fonts.css";
 @import "base.css";
 @import "components.css";
-
-
-
-
-
-
-
-
-.div-header{
-    font-family: sans-serif;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right:0px;
-    color: #666;
-}
-
